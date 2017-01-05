@@ -1,0 +1,13 @@
+<configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:set="http://www.sitecore.net/xmlconfig/set/">
+  <sitecore>
+    <contentSearch>
+      <indexConfigurations>
+        <!-- <solrHttpWebRequestFactory type="HttpWebAdapters.HttpWebRequestFactory, SolrNet" /> -->
+        <solrHttpWebRequestFactory set:type="HttpWebAdapters.BasicAuthHttpWebRequestFactory, SolrNet">
+          <param hint="username">solr</param>
+          <param hint="password">SolrRocks</param>
+        </solrHttpWebRequestFactory>
+      </indexConfigurations>
+    </contentSearch>
+  </sitecore>
+</configuration>
