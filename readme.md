@@ -1,6 +1,8 @@
 # Sitecore.Support.141324
 Solr BasicAuthentication patch
 
+[![Total downloads](https://img.shields.io/github/downloads/SitecoreSupport/Sitecore.Support.141324/total.svg)](https://github.com/SitecoreSupport/Sitecore.Support.141324/releases)
+
 ## Main
 This repo contains Sitecore Support patch #141324 that fixes BasicAuthentication issue for Solr indexing provider.
 
